@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#container {
+  height: 100%;
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+
+  #editor {
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    font-family: "Fira Code", monospace;
+  }
+
+  #iframe {
+    height: 100%;
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+.ace_editor .ace_marker-layer .ace_bracket {
+  display: none;
+}
